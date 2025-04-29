@@ -1,0 +1,14 @@
+# Ignore Python bytecode
+*.pyc
+
+# Ignore __pycache__ directory
+__pycache__/
+
+# Ignore saved model checkpoints (can be large)
+checkpoints/
+
+# Ignore dataset zip file if not part of the repo (we download in Colab)
+*.zip
+
+# Ignore extracted dataset directory if stored locally
+cornell_dialogs_extracted/
